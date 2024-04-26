@@ -1,0 +1,38 @@
+CREATE SCHEMA `library` ;
+---------------------------------------------
+CREATE TABLE `library`.`admin_registration` (
+  `FirstName` INT NOT NULL,
+  `LastName` VARCHAR(45) NULL,
+  `UserName` VARCHAR(45) NOT NULL,
+  `email` VARCHAR(45) NULL,
+  `Password` VARCHAR(45) NULL,
+  `ConfirmPass` VARCHAR(45) NULL,
+  `Phone` INT(12) NULL,
+  PRIMARY KEY (`UserName`));
+--------------------------------------------
+CREATE TABLE `library`.`student_registration` (
+  `FirstName` INT NOT NULL,
+  `LastName` VARCHAR(45) NULL,
+  `UserName` VARCHAR(45) NOT NULL,
+  `email` VARCHAR(45) NULL,
+  `Password` VARCHAR(45) NULL,
+  `ConfirmPass` VARCHAR(45) NULL,
+  `Phone` INT(12) NULL,
+  PRIMARY KEY (`UserName`));
+----------------------------------------------
+CREATE TABLE `library`.`book` (
+  `BookName` VARCHAR(45) NOT NULL,
+  `BookISPN` INT(15) NOT NULL,
+  `Author` VARCHAR(45) NULL,
+  `Publishingyear` INT(4) NULL,
+  `NumofCopies` INT(5) NULL,
+  `Bookcol` VARCHAR(45) NULL,
+  PRIMARY KEY (`BookISPN`));
+-------------------------------------------------
+CREATE TABLE `library`.`Borrowers` (
+  `BrowserID` INT(5) NOT NULL,
+  `BrowserName` VARCHAR(45) NULL,
+  `EMail` VARCHAR(45) NOT NULL,
+  `Diration` INT(5) NULL,
+  `BookName` VARCHAR(45) NULL,
+  PRIMARY KEY (`BrowserID`));

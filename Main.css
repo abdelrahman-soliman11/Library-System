@@ -1,0 +1,45 @@
+/* All CSS Formating which we have used in the project */ body {   background-image: url("Images/P1.jpg"); 
+} orm {   border: 3px solid #f1f1f1; 
+} input[type=text], input[type=password] , input[type=email] , input[type=number] 
+{   width: 50%;   padding: 12px 20px;   display: inline-block;   border: 2px brown ;   box-sizing: border-box;   margin:auto ;    background-color: white ; 
+} input[type="email"] 
+{   margin-left: 3.5%; 
+} input[type="number"] 
+{   margin-left: 3%; 
+} input[name = "cpsw"] 
+{   margin-left: -1.5%; 
+} 
+.Signup { 
+  margin-left: 29% ;   margin-top:5% ;   padding: 16px; 
+} button { 
+  background-color:black ;   color: white;   padding:12px 20px;   border: none;   cursor: pointer;   width: 20% ; 
+  margin-left: 25% ;   border-radius: 20%;   font-size: 14px; 
+} 
+.log {   margin-left: 67%;   margin-top: -4.5%;   color: darkred;   text-align: center; 
+} 
+.SA {   margin-left: 1%; 
+} 
+.SS {   margin-right: 15%; 
+} b 
+{   color :white;   font-size:large ;    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+} button:hover 
+{   opacity: 0.8; 
+} 
+.login {   margin-left: 29% ;   margin-top: 13.5% ;   padding: 16px; 
+}  img {   margin-left: 29% ;   width: 10%;   border-radius: 50%;   margin-top: -19.5% ; 
+} 
+.topnav {   background-color :darkgoldenrod ;  
+    overflow : hidden ;    margin-right: -1%;   margin-left: -1%;   margin-top: -1%; 
+} 
+.topnav a {   float: left;   color: #f2f2f2;   text-align: center;   padding: 14px 16px;   text-decoration: none;   font-size: 17px; 
+} 
+.topnav a:hover 
+{   background-color: #ddd;   color:gray;    
+} 
+.topnav a.active 
+{   background-color : darkgoldenrod ;    color: white; 
+} table {   border-collapse: collapse;   width: 100%;   color: #588C7E ;   font-family: monospace;   font-size: 25PX ;   text-align: center; 
+} 
+.s { 
+  width: 50%;   height:200%;   font-family:"Roboto";   padding: 5px 10px;   font-size: 1.25rem;   cursor: pointer;   margin-left: 30%;   margin-top: 5%; 
+} 
